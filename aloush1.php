@@ -4,7 +4,7 @@
 // My Channel Set_Web
 
 ob_start();
-define('API_KEY','6842903643:AAF-HACtpbTKKukkCAQ7Aewr35CGVjzFx70');
+define('API_KEY','8030576194:AAEVtgHM5UDUMCdpoHvrEUDKFKD7OErxHJg');
 function bot($method,$datas=[]){
     $url = 'https://api.telegram.org/bot'.API_KEY.'/'.$method;
 $ch = curl_init();
